@@ -14,7 +14,6 @@ function addTodoItem(text) {
   const butn = document.getElementById("butn");
   removeButton.textContent = 'Delete'
   removeButton.addEventListener('click', function() {
-    alert("You are deleting a task.");
     li.remove();
   });
   li.appendChild(removeButton);
